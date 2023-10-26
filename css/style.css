@@ -1,0 +1,165 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4, p {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/tree-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.9;
+  padding: 0px 16px;
+}
+
+.banner a {
+border-radius: 4px;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: bold;
+padding: 8px 16px;
+transition: 0.3s ease;
+text-decoration: none;
+border-radius: 4px;
+border: white 1px solid;
+box-shadow: 0 0 16px rgba(0,0,0,0.2);
+opacity: .75;
+}
+
+.banner a:hover {
+opacity: 1;
+}
+
+/* ------------------------- */
+
+.container {
+  width: 75vw;
+  margin: 24px auto;
+  color: #022414;
+  text-align: center;
+  transition: 0.6s ease;
+}
+
+.container:hover {
+  color: #02bd66;
+}
+
+.container h3 {
+  font-size: 24px;
+}
+
+.container p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.card_container {
+  height: 320px;
+  width: 75vw;
+  margin: 0px auto;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card {
+  height: 320px;
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  transition: 0.4s ease;
+  color: #2c1d20;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card:hover h3{
+  color: #ff616b;
+
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  transition: 0.4s ease;
+}
+.card p {
+  font-size: 12px;
+  font-weight: lighter;
+
+}
+
+.card_image {
+  width: 160px;
+  align-self: center;
+}
+
+/* ------------------------- */
+
+.footer {
+  background-color: #00D973;
+  background-size: cover;
+  background-position: center;
+  padding: 48px 0;
+  text-align: center;
+  border: #02bd66 1px solid;
+}
+.footer p {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.small_socials_icon {
+  height: 32px;
+  width: 32px;
+  box-shadow: 0 2 4px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.small_socials_icon:hover {
+  opacity: .75;
+}
